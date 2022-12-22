@@ -1,0 +1,41 @@
+.style {
+  padding-top: 0;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.style__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+}
+
+.style__kart {
+  display: flex;
+  gap: 30px;
+}
+.style__photo {
+  position: relative;
+}
+.style__overlay {
+  color: var(--background-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
