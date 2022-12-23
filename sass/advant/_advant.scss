@@ -2,11 +2,14 @@
     background-color: #84A178;
     width: 100%;
     padding: 64px 45px;
+    justify-content: center;
     
 }
 
 .advant {
-     justify-content: center;
+    justify-content: center;
+    width: 100%;
+    display: block;
     
     @media screen and (min-width: 768px) {
         display: flex;
@@ -16,23 +19,28 @@
 }
 
 .advant-uhdertitle {
-    
+    position: relative;
     justify-content: center;
-    width: 230px;
-  
+    width: 100%;
+    height: 240px;
+
     @media screen and (min-width: 768px) {
-      width: 152px;
-    }
-    @media screen and (min-width: 1200px) {
-      width: 368px;
-    }
+        width: 152px;
+      }
+    
+      @media screen and (min-width: 1200px) {
+        width: 368px;
+      }
+    
   }
   
   
   
   .advant__icon {
-    
-    margin-bottom: 22px;
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 10% ;
+    bottom: 22px;
   }
   
   .advant__title {
@@ -45,9 +53,10 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #FCFCFC;
+    padding-top: 140px;
+    
     margin-bottom: 16px;
-      
-       
+     
     @media screen and (max-width: 767px) {
       text-align: center;
     }
@@ -59,6 +68,11 @@
     font-size: 12px;
     line-height: 170%;
     text-align: center;
+    margin-left: auto ;
+    margin-right: auto;
     color: #FCFCFC;
     margin-bottom: 28px;
+    width: 230px;
+
+    
 }
